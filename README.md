@@ -1,8 +1,10 @@
 # Wine Quality EDA Analysis
 
-📌 Portfolio project completed as part of my Data Analytics upskilling journey.
+## Project Summary
 
-This project focuses on performing Exploratory Data Analysis (EDA) on a wine quality dataset to identify relationships between physicochemical properties and wine quality ratings.
+This project demonstrates an end-to-end Exploratory Data Analysis (EDA) workflow using Python to investigate the factors influencing wine quality ratings. The analysis focuses on data quality assessment, feature relationships, statistical exploration, and insight generation through visualization techniques.
+
+As part of my professional upskilling journey in Data Analytics, I completed this project to strengthen practical skills in data cleaning, exploratory analysis, and business-focused storytelling with data.
 
 Tools Used:
 - Python
@@ -35,6 +37,23 @@ While following the guided curriculum, I independently performed data profiling,
 
 The repository forms part of my professional upskilling journey as I continue building expertise in Data Analytics, Business Intelligence, and Data Visualization.
 
+## Repository Structure
+
+├── data/
+│   └── winequality-red.csv
+│
+├── Wine_Quality_Eda.ipynb 
+│
+├── images/
+│   ├── 1_correlation_heatmap.png
+│   ├── 2_wine_quality_count.png
+│   ├── 3_pairplot.png
+│   ├── 4_quality_alcohol_boxpllot.png
+│   ├── 5_alcohol_ph_scatter.png
+│
+├── README.md
+└── requirements.txt
+
 ## Dataset
 
 Source: UCI Machine Learning Repository
@@ -54,7 +73,7 @@ Example features include:
 - Density
 - Quality Score
 
-  ## Analysis Performed
+## Analysis Performed
 
 ### Data Profiling
 
@@ -99,11 +118,11 @@ Example features include:
 
 ## Key Insights
 
-- Wine quality distribution is imbalanced, with ratings 5 and 6 dominating the dataset.
-- Strong correlations exist among several physicochemical attributes.
-- Alcohol content appears to have a positive relationship with wine quality.
-- Certain acidity-related variables exhibit meaningful correlations.
-- Visualization techniques helped uncover patterns that may support future predictive modeling.
+- Wine quality ratings are concentrated around scores of 5 and 6, indicating an imbalanced target distribution.
+- Alcohol content shows a positive relationship with wine quality, suggesting it may be an important predictive feature.
+- Volatile acidity demonstrates a negative relationship with quality ratings.
+- Several physicochemical attributes exhibit strong inter-correlations, highlighting potential multicollinearity considerations for future modeling.
+- Data visualization enabled the identification of patterns that can inform feature selection for predictive analytics.
 
 ## Skills Demonstrated
 
