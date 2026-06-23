@@ -37,23 +37,6 @@ While following the guided curriculum, I independently performed data profiling,
 
 The repository forms part of my professional upskilling journey as I continue building expertise in Data Analytics, Business Intelligence, and Data Visualization.
 
-## Repository Structure
-
-├── data/
-│   └── winequality-red.csv
-│
-├── Wine_Quality_Eda.ipynb 
-│
-├── images/
-│   ├── 1_correlation_heatmap.png
-│   ├── 2_wine_quality_count.png
-│   ├── 3_pairplot.png
-│   ├── 4_quality_alcohol_boxpllot.png
-│   ├── 5_alcohol_ph_scatter.png
-│
-├── README.md
-└── requirements.txt
-
 ## Dataset
 
 Source: UCI Machine Learning Repository
