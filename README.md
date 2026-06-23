@@ -71,6 +71,7 @@ Example features include:
 ### Correlation Analysis
 
 - Correlation matrix generation
+    - ![Correlation Heatmap](images/1_correlation_heatmap.png)
 - Heatmap visualization
 - Feature relationship analysis
 
@@ -83,13 +84,18 @@ Example features include:
 ### Bivariate Analysis
 
 - Scatterplots
+  - ![Alcohol_ph_scatterplot](images/5_alcohol_ph_scatter.png)
 - Boxplots
+  - ![Alcohol_quality boxplot](images/4_quality_alcohol_boxpllot.png)
 - Feature-to-quality comparisons
 
 ### Multivariate Analysis
 
 - Pairplots
+  - ![Pairplots](images/3_pairplot.png)
 - Interaction analysis between multiple variables
+
+
 
 ## Key Insights
 
